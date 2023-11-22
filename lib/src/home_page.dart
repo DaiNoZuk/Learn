@@ -99,8 +99,14 @@ class Home_Page extends StatelessWidget {
                               ),
                             ),
                             ClipRRect(
-                              child: Text("2"),
-                              borderRadius: BorderRadius.circular(1),
+                              child: Container(
+                                alignment: Alignment.center,
+                                width: 20,
+                                height: 20,
+                                child: Text("2"),
+                                color: Colors.grey,
+                              ),
+                              borderRadius: BorderRadius.circular(20),
                             ),
                           ],
                         ),
@@ -112,7 +118,7 @@ class Home_Page extends StatelessWidget {
                             // Delete button
                             Container(
                               height: 38,
-                              width: 100,
+                              width: 120,
                               child: OutlinedButton(
                                 onPressed: () {},
                                 style: OutlinedButton.styleFrom(
@@ -142,7 +148,7 @@ class Home_Page extends StatelessWidget {
                             ),
                             // New User Button
                             Container(
-                              width: 127,
+                              width: 150,
                               height: 38,
                               child: ElevatedButton(
                                 onPressed: () {},
