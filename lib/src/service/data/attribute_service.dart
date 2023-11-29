@@ -1,5 +1,5 @@
-import 'package:flutter_learn/src/room_attribute/model/attribute.dart';
-import 'package:flutter_learn/src/room_attribute/service/postgres_service.dart';
+import 'package:flutter_learn/src/model/attribute.dart';
+import 'package:flutter_learn/src/service/postgres_service.dart';
 
 class AttributeService {
   Future<List<AttributeModel>> getAttribute() async {
